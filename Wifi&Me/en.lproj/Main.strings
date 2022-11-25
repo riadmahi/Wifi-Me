@@ -1,0 +1,24 @@
+
+/* Class = "UILabel"; text = "En ligne"; ObjectID = "6jb-Ic-77t"; */
+"6jb-Ic-77t.text" = "En ligne";
+
+/* Class = "UILabel"; text = "AA:AA:AA"; ObjectID = "7sr-A4-rvR"; */
+"7sr-A4-rvR.text" = "AA:AA:AA";
+
+/* Class = "UILabel"; text = "SFR"; ObjectID = "FUU-bZ-Dqf"; */
+"FUU-bZ-Dqf.text" = "SFR";
+
+/* Class = "UITabBarItem"; title = "Mon wifi"; ObjectID = "OYC-IE-z11"; */
+"OYC-IE-z11.title" = "My Wi-Fi";
+
+/* Class = "UILabel"; text = "Mes appareils à proximités"; ObjectID = "U0f-nY-EDt"; */
+"U0f-nY-EDt.text" = "Near me";
+
+/* Class = "UILabel"; text = "Appareil de John Doe"; ObjectID = "dVp-uy-ihs"; */
+"dVp-uy-ihs.text" = "Appareil de John Doe";
+
+/* Class = "UIButton"; normalTitle = " "; ObjectID = "e6A-rn-rLx"; */
+"e6A-rn-rLx.normalTitle" = " ";
+
+/* Class = "UITabBarItem"; title = "App. à proximités"; ObjectID = "hVK-eL-sBS"; */
+"hVK-eL-sBS.title" = "Near me";

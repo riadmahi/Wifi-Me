@@ -1,0 +1,46 @@
+included: # paths to include during linting. `--path` is ignored if present.
+  - .
+
+excluded: # paths to ignore during linting. Takes precedence over `included`.
+  - Pods
+
+disabled_rules: # rule identifiers to exclude from running
+  - line_length
+  - private_outlet
+  - comment_spacing
+
+opt_in_rules: # some rules are only opt-in
+  - empty_count
+  - contains_over_first_not_nil
+  - explicit_init
+  - trailing_closure
+  - switch_case_on_newline
+  - first_where
+  - operator_usage_whitespace
+  - overridden_super_call
+  - prohibited_super_call
+  - closure_end_indentation
+  - closure_spacing
+  - redundant_nil_coalescing
+  - force_unwrapping
+  - fatal_error_message
+  - modifier_order
+  # Find all the available rules by running:
+  # swiftlint rules
+
+# configurable rules can be customized from this configuration file
+trailing_whitespace:
+  ignores_empty_lines: true
+
+#private_outlet:
+#  allow_private_set: true
+type_name:
+  allowed_symbols: "_"
+
+identifier_name:
+  excluded:
+    - id
+  allowed_symbols: "_"
+
+cyclomatic_complexity:
+  ignores_case_statements: true

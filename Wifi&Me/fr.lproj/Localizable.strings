@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  Wifi&Me
+
+  Created by Riad Mahi on 24/11/2022.
+  
+*/
+
+"host.isActive.true" = "En ligne";
+"host.isActive.false" = "Hors ligne";
+
