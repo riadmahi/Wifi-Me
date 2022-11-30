@@ -9,7 +9,6 @@ import UIKit
 
 class HostViewController: UIViewController, UITableViewDataSource {
     
-    @IBOutlet weak var contentView: UIView!
     @IBOutlet weak var tableView: UITableView!
     private var hosts: Hosts?
     
@@ -41,6 +40,7 @@ class HostViewController: UIViewController, UITableViewDataSource {
                 }
             } catch let error {
                 print(error)
+                self.showWiFiError()
                 
             }
         }.resume()
@@ -73,7 +73,7 @@ class HostViewController: UIViewController, UITableViewDataSource {
         if let cell = tableView.dequeueReusableCell(withIdentifier: "HostInfoCell", for: indexPath) as? HostTableViewCell {
             if let host = hosts?.hostsList[indexPath.row] {
                 cell.name.text = host.name
-                cell.status.text = (host.isActive ? NSLocalizedString("host.isActive.true", tableName: "Localizable", comment: "isActive") : NSLocalizedString("host.isActive.false", tableName: "Localizable", comment: "isNotActive"))
+                cell.status.text = host.isActive ? "En ligne" : "Hors ligne"
                 cell.statusDot.backgroundColor = host.isActive ? .green : .gray
                 cell.statusDot.layer.cornerRadius = 10
                 cell.contentView.alpha = host.isActive ? 1 : 0.4
@@ -85,4 +85,16 @@ class HostViewController: UIViewController, UITableViewDataSource {
         }
         return UITableViewCell()
     }
+    
+    private func showWiFiError() {
+        let alert = UIAlertController(title: "Aucun réseau SFR détecté", message: "Vérifiez que vous êtes bien sur un Wi-Fi SFR.", preferredStyle: .alert)
+            
+             let coFound = UIAlertAction(title: "J'ai de la co!", style: .default, handler: { action in
+             })
+             alert.addAction(coFound)
+             DispatchQueue.main.async {
+                self.present(alert, animated: true)
+        }
+    }
+    
 }

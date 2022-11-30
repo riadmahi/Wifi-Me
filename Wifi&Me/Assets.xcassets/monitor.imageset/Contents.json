@@ -14,6 +14,16 @@
       "filename" : "monitor 2.svg",
       "idiom" : "universal",
       "scale" : "3x"
+    },
+    {
+      "filename" : "monitor 3.svg",
+      "idiom" : "tv",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "monitor 4.svg",
+      "idiom" : "tv",
+      "scale" : "2x"
     }
   ],
   "info" : {

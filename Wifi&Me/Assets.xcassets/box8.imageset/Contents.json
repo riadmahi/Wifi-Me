@@ -14,6 +14,16 @@
       "filename" : "box8 2.png",
       "idiom" : "universal",
       "scale" : "3x"
+    },
+    {
+      "filename" : "box8 3.png",
+      "idiom" : "tv",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "box8 4.png",
+      "idiom" : "tv",
+      "scale" : "2x"
     }
   ],
   "info" : {

@@ -10,6 +10,24 @@
 		C7B8FDD60E8564B4A677E5AB /* libPods-Wifi&Me.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F17554B3A6F00CAEF94F83E /* libPods-Wifi&Me.a */; };
 		D206B465292E2F0E0046D90B /* HostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D206B464292E2F0E0046D90B /* HostTableViewCell.swift */; };
 		D22C6DA7292E098500691CF5 /* HostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22C6DA6292E098500691CF5 /* HostViewController.swift */; };
+		D258D4362930D50100276145 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D258D4352930D50100276145 /* AppDelegate.swift */; };
+		D258D4382930D50100276145 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D258D4372930D50100276145 /* ViewController.swift */; };
+		D258D43B2930D50100276145 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D258D4392930D50100276145 /* Main.storyboard */; };
+		D258D43D2930D50300276145 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D258D43C2930D50300276145 /* Assets.xcassets */; };
+		D258D4402930D50300276145 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D258D43E2930D50300276145 /* LaunchScreen.storyboard */; };
+		D258D44A2930D50400276145 /* WiFi_MeTVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D258D4492930D50400276145 /* WiFi_MeTVTests.swift */; };
+		D258D4542930D50400276145 /* WiFi_MeTVUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D258D4532930D50400276145 /* WiFi_MeTVUITests.swift */; };
+		D258D4562930D50400276145 /* WiFi_MeTVUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D258D4552930D50400276145 /* WiFi_MeTVUITestsLaunchTests.swift */; };
+		D258D4602930D57B00276145 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2721D0F292BBCD0004ACEC8 /* Network.swift */; };
+		D258D4612930D58B00276145 /* MyWifiController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E15A34292BCE7300BBEAD9 /* MyWifiController.swift */; };
+		D258D4622930D59F00276145 /* HostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22C6DA6292E098500691CF5 /* HostViewController.swift */; };
+		D258D4632930D63300276145 /* Host.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB89B3292D122C00848153 /* Host.swift */; };
+		D258D4642930D64500276145 /* ConvertDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2721D13292BBEB0004ACEC8 /* ConvertDictionary.swift */; };
+		D258D4652930D64700276145 /* INOXMLTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2721D12292BBEB0004ACEC8 /* INOXMLTransformer.swift */; };
+		D258D4662930D67400276145 /* HostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D206B464292E2F0E0046D90B /* HostTableViewCell.swift */; };
+		D27031902934A67F007FD6BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2721CE8292B8D88004ACEC8 /* Assets.xcassets */; };
+		D27031922934B054007FD6BD /* MyWiFiTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27031912934B054007FD6BD /* MyWiFiTableViewCell.swift */; };
+		D27031932934B29E007FD6BD /* MyWiFiTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27031912934B054007FD6BD /* MyWiFiTableViewCell.swift */; };
 		D2721CE0292B8D86004ACEC8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2721CDF292B8D86004ACEC8 /* AppDelegate.swift */; };
 		D2721CE2292B8D86004ACEC8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2721CE1292B8D86004ACEC8 /* SceneDelegate.swift */; };
 		D2721CE4292B8D86004ACEC8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2721CE3292B8D86004ACEC8 /* ViewController.swift */; };
@@ -28,6 +46,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		D258D4462930D50300276145 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2721CD4292B8D86004ACEC8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D258D4322930D50000276145;
+			remoteInfo = "WiFi&MeTV";
+		};
+		D258D4502930D50400276145 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2721CD4292B8D86004ACEC8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D258D4322930D50000276145;
+			remoteInfo = "WiFi&MeTV";
+		};
 		D2721CF3292B8D89004ACEC8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D2721CD4292B8D86004ACEC8 /* Project object */;
@@ -50,6 +82,18 @@
 		6F17554B3A6F00CAEF94F83E /* libPods-Wifi&Me.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Wifi&Me.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D206B464292E2F0E0046D90B /* HostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostTableViewCell.swift; sourceTree = "<group>"; };
 		D22C6DA6292E098500691CF5 /* HostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostViewController.swift; sourceTree = "<group>"; };
+		D258D4332930D50000276145 /* WiFi&MeTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WiFi&MeTV.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D258D4352930D50100276145 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D258D4372930D50100276145 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D258D43A2930D50100276145 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D258D43C2930D50300276145 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D258D43F2930D50300276145 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D258D4452930D50300276145 /* WiFi&MeTVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WiFi&MeTVTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D258D4492930D50400276145 /* WiFi_MeTVTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WiFi_MeTVTests.swift; sourceTree = "<group>"; };
+		D258D44F2930D50400276145 /* WiFi&MeTVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WiFi&MeTVUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D258D4532930D50400276145 /* WiFi_MeTVUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WiFi_MeTVUITests.swift; sourceTree = "<group>"; };
+		D258D4552930D50400276145 /* WiFi_MeTVUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WiFi_MeTVUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D27031912934B054007FD6BD /* MyWiFiTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWiFiTableViewCell.swift; sourceTree = "<group>"; };
 		D2721CDC292B8D86004ACEC8 /* Wifi&Me.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wifi&Me.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2721CDF292B8D86004ACEC8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D2721CE1292B8D86004ACEC8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -75,6 +119,27 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		D258D4302930D50000276145 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D258D4422930D50300276145 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D258D44C2930D50400276145 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D2721CD9292B8D86004ACEC8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -117,12 +182,44 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		D258D4342930D50100276145 /* WiFi&MeTV */ = {
+			isa = PBXGroup;
+			children = (
+				D258D4352930D50100276145 /* AppDelegate.swift */,
+				D258D4372930D50100276145 /* ViewController.swift */,
+				D258D4392930D50100276145 /* Main.storyboard */,
+				D258D43C2930D50300276145 /* Assets.xcassets */,
+				D258D43E2930D50300276145 /* LaunchScreen.storyboard */,
+			);
+			path = "WiFi&MeTV";
+			sourceTree = "<group>";
+		};
+		D258D4482930D50400276145 /* WiFi&MeTVTests */ = {
+			isa = PBXGroup;
+			children = (
+				D258D4492930D50400276145 /* WiFi_MeTVTests.swift */,
+			);
+			path = "WiFi&MeTVTests";
+			sourceTree = "<group>";
+		};
+		D258D4522930D50400276145 /* WiFi&MeTVUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D258D4532930D50400276145 /* WiFi_MeTVUITests.swift */,
+				D258D4552930D50400276145 /* WiFi_MeTVUITestsLaunchTests.swift */,
+			);
+			path = "WiFi&MeTVUITests";
+			sourceTree = "<group>";
+		};
 		D2721CD3292B8D86004ACEC8 = {
 			isa = PBXGroup;
 			children = (
 				D2721CDE292B8D86004ACEC8 /* Wifi&Me */,
 				D2721CF5292B8D89004ACEC8 /* Wifi&MeTests */,
 				D2721CFF292B8D89004ACEC8 /* Wifi&MeUITests */,
+				D258D4342930D50100276145 /* WiFi&MeTV */,
+				D258D4482930D50400276145 /* WiFi&MeTVTests */,
+				D258D4522930D50400276145 /* WiFi&MeTVUITests */,
 				D2721CDD292B8D86004ACEC8 /* Products */,
 				714E625FA349B8E75D3CC2AA /* Pods */,
 				70F32E0512C77EE8E9DFA1C2 /* Frameworks */,
@@ -135,6 +232,9 @@
 				D2721CDC292B8D86004ACEC8 /* Wifi&Me.app */,
 				D2721CF2292B8D89004ACEC8 /* Wifi&MeTests.xctest */,
 				D2721CFC292B8D89004ACEC8 /* Wifi&MeUITests.xctest */,
+				D258D4332930D50000276145 /* WiFi&MeTV.app */,
+				D258D4452930D50300276145 /* WiFi&MeTVTests.xctest */,
+				D258D44F2930D50400276145 /* WiFi&MeTVUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -156,6 +256,7 @@
 				D22C6DA6292E098500691CF5 /* HostViewController.swift */,
 				D206B464292E2F0E0046D90B /* HostTableViewCell.swift */,
 				D2B1F429292F767300512B0E /* Localizable.strings */,
+				D27031912934B054007FD6BD /* MyWiFiTableViewCell.swift */,
 			);
 			path = "Wifi&Me";
 			sourceTree = "<group>";
@@ -189,6 +290,59 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		D258D4322930D50000276145 /* WiFi&MeTV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D258D4572930D50400276145 /* Build configuration list for PBXNativeTarget "WiFi&MeTV" */;
+			buildPhases = (
+				D258D42F2930D50000276145 /* Sources */,
+				D258D4302930D50000276145 /* Frameworks */,
+				D258D4312930D50000276145 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WiFi&MeTV";
+			productName = "WiFi&MeTV";
+			productReference = D258D4332930D50000276145 /* WiFi&MeTV.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D258D4442930D50300276145 /* WiFi&MeTVTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D258D45A2930D50400276145 /* Build configuration list for PBXNativeTarget "WiFi&MeTVTests" */;
+			buildPhases = (
+				D258D4412930D50300276145 /* Sources */,
+				D258D4422930D50300276145 /* Frameworks */,
+				D258D4432930D50300276145 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D258D4472930D50300276145 /* PBXTargetDependency */,
+			);
+			name = "WiFi&MeTVTests";
+			productName = "WiFi&MeTVTests";
+			productReference = D258D4452930D50300276145 /* WiFi&MeTVTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D258D44E2930D50400276145 /* WiFi&MeTVUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D258D45D2930D50400276145 /* Build configuration list for PBXNativeTarget "WiFi&MeTVUITests" */;
+			buildPhases = (
+				D258D44B2930D50400276145 /* Sources */,
+				D258D44C2930D50400276145 /* Frameworks */,
+				D258D44D2930D50400276145 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D258D4512930D50400276145 /* PBXTargetDependency */,
+			);
+			name = "WiFi&MeTVUITests";
+			productName = "WiFi&MeTVUITests";
+			productReference = D258D44F2930D50400276145 /* WiFi&MeTVUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		D2721CDB292B8D86004ACEC8 /* Wifi&Me */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D2721D06292B8D89004ACEC8 /* Build configuration list for PBXNativeTarget "Wifi&Me" */;
@@ -254,6 +408,17 @@
 				LastSwiftUpdateCheck = 1400;
 				LastUpgradeCheck = 1400;
 				TargetAttributes = {
+					D258D4322930D50000276145 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					D258D4442930D50300276145 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = D258D4322930D50000276145;
+					};
+					D258D44E2930D50400276145 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = D258D4322930D50000276145;
+					};
 					D2721CDB292B8D86004ACEC8 = {
 						CreatedOnToolsVersion = 14.0.1;
 					};
@@ -284,11 +449,39 @@
 				D2721CDB292B8D86004ACEC8 /* Wifi&Me */,
 				D2721CF1292B8D89004ACEC8 /* Wifi&MeTests */,
 				D2721CFB292B8D89004ACEC8 /* Wifi&MeUITests */,
+				D258D4322930D50000276145 /* WiFi&MeTV */,
+				D258D4442930D50300276145 /* WiFi&MeTVTests */,
+				D258D44E2930D50400276145 /* WiFi&MeTVUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		D258D4312930D50000276145 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D258D4402930D50300276145 /* LaunchScreen.storyboard in Resources */,
+				D258D43D2930D50300276145 /* Assets.xcassets in Resources */,
+				D27031902934A67F007FD6BD /* Assets.xcassets in Resources */,
+				D258D43B2930D50100276145 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D258D4432930D50300276145 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D258D44D2930D50400276145 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D2721CDA292B8D86004ACEC8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -360,10 +553,45 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		D258D42F2930D50000276145 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D27031932934B29E007FD6BD /* MyWiFiTableViewCell.swift in Sources */,
+				D258D4382930D50100276145 /* ViewController.swift in Sources */,
+				D258D4622930D59F00276145 /* HostViewController.swift in Sources */,
+				D258D4642930D64500276145 /* ConvertDictionary.swift in Sources */,
+				D258D4362930D50100276145 /* AppDelegate.swift in Sources */,
+				D258D4652930D64700276145 /* INOXMLTransformer.swift in Sources */,
+				D258D4632930D63300276145 /* Host.swift in Sources */,
+				D258D4612930D58B00276145 /* MyWifiController.swift in Sources */,
+				D258D4662930D67400276145 /* HostTableViewCell.swift in Sources */,
+				D258D4602930D57B00276145 /* Network.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D258D4412930D50300276145 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D258D44A2930D50400276145 /* WiFi_MeTVTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D258D44B2930D50400276145 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D258D4542930D50400276145 /* WiFi_MeTVUITests.swift in Sources */,
+				D258D4562930D50400276145 /* WiFi_MeTVUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D2721CD8292B8D86004ACEC8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D27031922934B054007FD6BD /* MyWiFiTableViewCell.swift in Sources */,
 				D2721D15292BBEB0004ACEC8 /* ConvertDictionary.swift in Sources */,
 				D2721CE4292B8D86004ACEC8 /* ViewController.swift in Sources */,
 				D2721CE0292B8D86004ACEC8 /* AppDelegate.swift in Sources */,
@@ -397,6 +625,16 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		D258D4472930D50300276145 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D258D4322930D50000276145 /* WiFi&MeTV */;
+			targetProxy = D258D4462930D50300276145 /* PBXContainerItemProxy */;
+		};
+		D258D4512930D50400276145 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D258D4322930D50000276145 /* WiFi&MeTV */;
+			targetProxy = D258D4502930D50400276145 /* PBXContainerItemProxy */;
+		};
 		D2721CF4292B8D89004ACEC8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = D2721CDB292B8D86004ACEC8 /* Wifi&Me */;
@@ -410,6 +648,22 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		D258D4392930D50100276145 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D258D43A2930D50100276145 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D258D43E2930D50300276145 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D258D43F2930D50300276145 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
 		D2721CE5292B8D86004ACEC8 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -440,6 +694,148 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		D258D4582930D50400276145 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LXXT2YFP24;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sfr.WiFi-MeTV";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = appletvos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+			};
+			name = Debug;
+		};
+		D258D4592930D50400276145 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LXXT2YFP24;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sfr.WiFi-MeTV";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = appletvos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+			};
+			name = Release;
+		};
+		D258D45B2930D50400276145 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LXXT2YFP24;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sfr.WiFi-MeTVTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WiFi&MeTV.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WiFi&MeTV";
+				TVOS_DEPLOYMENT_TARGET = 16.0;
+			};
+			name = Debug;
+		};
+		D258D45C2930D50400276145 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LXXT2YFP24;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sfr.WiFi-MeTVTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WiFi&MeTV.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WiFi&MeTV";
+				TVOS_DEPLOYMENT_TARGET = 16.0;
+			};
+			name = Release;
+		};
+		D258D45E2930D50400276145 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LXXT2YFP24;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sfr.WiFi-MeTVUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = "WiFi&MeTV";
+				TVOS_DEPLOYMENT_TARGET = 16.0;
+			};
+			name = Debug;
+		};
+		D258D45F2930D50400276145 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LXXT2YFP24;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sfr.WiFi-MeTVUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = "WiFi&MeTV";
+				TVOS_DEPLOYMENT_TARGET = 16.0;
+			};
+			name = Release;
+		};
 		D2721D04292B8D89004ACEC8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -568,9 +964,9 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Wifi&Me/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = "";
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreenTV.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -602,9 +998,9 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Wifi&Me/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = "";
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreenTV.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -614,6 +1010,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "sfr.Wifi-Me";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
@@ -703,6 +1100,33 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		D258D4572930D50400276145 /* Build configuration list for PBXNativeTarget "WiFi&MeTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D258D4582930D50400276145 /* Debug */,
+				D258D4592930D50400276145 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D258D45A2930D50400276145 /* Build configuration list for PBXNativeTarget "WiFi&MeTVTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D258D45B2930D50400276145 /* Debug */,
+				D258D45C2930D50400276145 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D258D45D2930D50400276145 /* Build configuration list for PBXNativeTarget "WiFi&MeTVUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D258D45E2930D50400276145 /* Debug */,
+				D258D45F2930D50400276145 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		D2721CD7292B8D86004ACEC8 /* Build configuration list for PBXProject "Wifi&Me" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

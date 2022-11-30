@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import SystemConfiguration
 
 class MyWifiController: UIViewController, UITableViewDataSource {
 
@@ -26,7 +27,8 @@ class MyWifiController: UIViewController, UITableViewDataSource {
     private func getWifiInfo() {
         guard let url = URL(string: "http://192.168.1.1/api/1.0/?method=system.getInfo") else { return }
         URLSession.shared.dataTask(with: url) {(data, _, error) in
-            guard let data = data else { return }
+            guard let data = data else {                self.showWiFiError()
+ return }
             let transformer = INOXMLTransformer(withData: data)
             let dictionary = transformer.toDictionary()
             let conversion = ConvertDictionary(withData: dictionary)
@@ -38,13 +40,26 @@ class MyWifiController: UIViewController, UITableViewDataSource {
                     self.tableView.reloadData()
                 }
             } catch let error {
+                print("Erreur de connexion")
                 print(error)
+                self.showWiFiError()
             }
         }.resume()
     }
     
     @IBAction func reloadWifiInfo() {
         self.getWifiInfo()
+    }
+    
+    private func showWiFiError() {
+        let alert = UIAlertController(title: "Aucun réseau SFR détecté", message: "Vérifiez que vous êtes bien sur un Wi-Fi SFR.", preferredStyle: .alert)
+            
+             let coFound = UIAlertAction(title: "J'ai de la co!", style: .default, handler: { action in
+             })
+             alert.addAction(coFound)
+             DispatchQueue.main.async {
+                self.present(alert, animated: true)
+        }
     }
     
     private func setupWidgets(_ network: Network) {
@@ -59,15 +74,12 @@ class MyWifiController: UIViewController, UITableViewDataSource {
     }
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "NetworkInfoCell", for: indexPath)
-        var contentConfiguration = cell.defaultContentConfiguration()
-        contentConfiguration.text = networkCellsName[indexPath.row]
-        contentConfiguration.secondaryText = getCorrespondingCellInfo(at: indexPath.row)
-        contentConfiguration.secondaryTextProperties.font = UIFont.preferredFont(forTextStyle: .title3)
-        contentConfiguration.textProperties.font = UIFont.preferredFont(forTextStyle: .caption1)
-        contentConfiguration.textProperties.color = .gray
-        cell.contentConfiguration = contentConfiguration
-        return cell
+        if let cell = tableView.dequeueReusableCell(withIdentifier: "NetworkInfoCell", for: indexPath) as? MyWiFiTableViewCell {
+            cell.name.text = networkCellsName[indexPath.row]
+            cell.info.text = getCorrespondingCellInfo(at: indexPath.row)
+            return cell
+        }
+        return UITableViewCell()
     }
     
     private func getCorrespondingCellInfo(at index: Int) -> String {
